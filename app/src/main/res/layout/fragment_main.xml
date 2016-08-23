@@ -1,0 +1,105 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.training.lfallon.androidfragmentstut.fragments.MainFragment"
+    android:background="@drawable/hero_bg_gradient">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/toolbar"
+            android:minHeight="?attr/actionBarSize"
+            android:background="#253748">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/topbannerbar"
+                android:scaleType="fitXY"/>
+
+        </android.support.v7.widget.Toolbar>
+
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Select something just becuz"-->
+            <!--android:gravity="center"-->
+            <!--android:textStyle="bold"-->
+            <!--android:textColor="@color/colorYellow"-->
+            <!--android:padding="20dp"-->
+            <!--android:textSize="24sp"/>-->
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/heroes"
+            android:paddingTop="15dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/white_border_clear_bg"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Squirrel chasing"
+            android:textStyle="bold"
+            android:textColor="@color/colorYellow"
+            android:drawableLeft="@drawable/lightning"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:drawableRight="@drawable/itemselected"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/white_border_clear_bg"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Hamster massacre"
+            android:textStyle="bold"
+            android:textColor="@color/colorYellow"
+            android:drawableLeft="@drawable/atomic"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/white_border_clear_bg"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Dinosaur diving"
+            android:textStyle="bold"
+            android:textColor="@color/colorYellow"
+            android:drawableLeft="@drawable/rocket"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/hero_solid_button"
+            android:backgroundTint="@color/colorYellow"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/colorDarkBlue"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:text="DO NOT CLICK"/>
+
+    </LinearLayout>
+
+</FrameLayout>
